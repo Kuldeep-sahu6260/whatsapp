@@ -1,0 +1,90 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: block;
+    width: 800px;
+    height: 700px;
+    margin: auto;
+    background-color: rgb(59, 255, 59);
+    align-items: center;
+    
+}
+
+.section{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+
+
+}
+ul{
+    display: flex;
+    padding: 15px;
+    justify-content: right;
+}
+li{
+    padding: 20px;
+    /* width: 15px;
+    height: 10px; */
+    border-radius: 4px ;
+    list-style: none;
+    background-color: aliceblue;
+}
+img{
+    padding: 15px;
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+}
+h2{
+    font-size: 50px;
+    font-weight: 50px;
+}
+.contact{
+    width: auto;
+    height: 500px;
+    background-color: aliceblue;
+    display: block;
+    margin: auto;
+    overflow-y: scroll;
+
+}
+.message{
+    width: 50%;
+    height: 20px;
+    padding: 20px 30px ;
+    background-color: blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.submit{
+    text-align: center;
+    display: block;
+    margin: auto;
+
+}
+input{
+    width: 600px;
+    padding: 15px;
+    border-radius: 4px;
+
+}
+button{
+    width: 80px;
+    height: 40px;
+    background-color: red;
+    color: wheat;
+}
